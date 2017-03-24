@@ -37,5 +37,4 @@ class ApiController extends Controller
         $aResults = $this->oApiService->packageDistributor($oRequest);
         return \View::make('Table.Table')->with('aResults', $aResults);
     }
-
 }
